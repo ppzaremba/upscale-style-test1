@@ -1,0 +1,23 @@
+
+$space-between: 10px;
+
+:host {
+	nav {
+		ul {
+			margin: 0 auto;
+			li {
+				a {
+					@include button($background-color: white, $border-radius: 2px);
+					color: white;
+					padding: 0 12px;
+					font-weight: 500;
+					font-size: 13px;
+					}
+					img.item-icon {
+						color: black;
+					}
+				}
+
+			}
+		}
+	}
